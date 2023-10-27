@@ -8,7 +8,7 @@
 #step4:- If anytime row position becomes -1 and column becomes n, switch it to (0, n-2).
 
 def magic_square(n):
-    magicSquare=[]
+    magicSquare=[1,2,3,4,5,6,7,8,9]
     for i in  range(n):
         l=[]
         for j in range(n):
